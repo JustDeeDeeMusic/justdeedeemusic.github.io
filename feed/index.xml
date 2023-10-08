@@ -9,10 +9,10 @@
 
 <channel>
 	<title>©Just Dee Dee Music</title>
-	<atom:link href="http://localhost/JustDeeDeeMusic/feed/?simply_static_page=66" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/JustDeeDeeMusic/feed/?simply_static_page=93" rel="self" type="application/rss+xml" />
 	<link>https://justdeedeemusic.github.io</link>
 	<description></description>
-	<lastBuildDate>Sun, 08 Oct 2023 16:53:00 +0000</lastBuildDate>
+	<lastBuildDate></lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
