@@ -9,8 +9,8 @@
 
 <channel>
 	<title>©Just Dee Dee Music</title>
-	<atom:link href="http://localhost/JustDeeDeeMusic/feed/?simply_static_page=39" rel="self" type="application/rss+xml" />
-	<link>http://justdeedeemusic.github.io</link>
+	<atom:link href="http://localhost/JustDeeDeeMusic/feed/?simply_static_page=66" rel="self" type="application/rss+xml" />
+	<link>https://justdeedeemusic.github.io</link>
 	<description></description>
 	<lastBuildDate>Sun, 08 Oct 2023 16:53:00 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.3.1</generator>
 
 <image>
-	<url>http://justdeedeemusic.github.io/wp-content/uploads/2023/10/DD_Business_Card_Photo-150x150.png</url>
+	<url>https://justdeedeemusic.github.io/wp-content/uploads/2023/10/DD_Business_Card_Photo-150x150.png</url>
 	<title>©Just Dee Dee Music</title>
-	<link>http://justdeedeemusic.github.io</link>
+	<link>https://justdeedeemusic.github.io</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
