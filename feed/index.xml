@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>©Just Dee Dee Music</title>
-	<atom:link href="http://localhost/JustDeeDeeMusic/feed/?simply_static_page=394" rel="self" type="application/rss+xml" />
+	<title>©JustDeeDeeMusic</title>
+	<atom:link href="http://localhost/JustDeeDeeMusic/feed/?simply_static_page=428" rel="self" type="application/rss+xml" />
 	<link>https://justdeedeemusic.github.io</link>
 	<description></description>
 	<lastBuildDate></lastBuildDate>
@@ -18,11 +18,11 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3.1</generator>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
 
 <image>
 	<url>https://justdeedeemusic.github.io/wp-content/uploads/2023/10/DD_Business_Card_Photo-150x150.png</url>
-	<title>©Just Dee Dee Music</title>
+	<title>©JustDeeDeeMusic</title>
 	<link>https://justdeedeemusic.github.io</link>
 	<width>32</width>
 	<height>32</height>

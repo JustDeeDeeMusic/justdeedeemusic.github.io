@@ -7,8 +7,8 @@
 	>
 <channel>
 	<title>
-	Comments for ©Just Dee Dee Music	</title>
-	<atom:link href="http://localhost/JustDeeDeeMusic/comments/feed/?simply_static_page=395" rel="self" type="application/rss+xml" />
+	Comments for ©JustDeeDeeMusic	</title>
+	<atom:link href="http://localhost/JustDeeDeeMusic/comments/feed/?simply_static_page=429" rel="self" type="application/rss+xml" />
 	<link>https://justdeedeemusic.github.io</link>
 	<description></description>
 	<lastBuildDate></lastBuildDate>
@@ -16,6 +16,6 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3.1</generator>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
 </channel>
 </rss>
