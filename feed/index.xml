@@ -9,8 +9,8 @@
 
 <channel>
 	<title>©JustDeeDeeMusic</title>
-	<atom:link href="http://localhost/JustDeeDeeMusic/feed/?simply_static_page=782" rel="self" type="application/rss+xml" />
-	<link>https://justdeedeemusic.com</link>
+	<atom:link href="http://localhost/JustDeeDeeMusic/feed/?simply_static_page=818" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description></description>
 	<lastBuildDate></lastBuildDate>
 	<language>en-US</language>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.4.2</generator>
 
 <image>
-	<url>https://justdeedeemusic.com/wp-content/uploads/2023/10/DD_Business_Card_Photo-150x150.png</url>
+	<url>/wp-content/uploads/2023/10/DD_Business_Card_Photo-150x150.png</url>
 	<title>©JustDeeDeeMusic</title>
-	<link>https://justdeedeemusic.com</link>
+	<link></link>
 	<width>32</width>
 	<height>32</height>
 </image> 
