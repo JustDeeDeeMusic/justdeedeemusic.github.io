@@ -9,8 +9,8 @@
 
 <channel>
 	<title>JustDeeDeeMusic</title>
-	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="http://localhost/JustDeeDeeMusic/feed/?simply_static_page=3197" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description></description>
 	<lastBuildDate></lastBuildDate>
 	<language>en-US</language>
@@ -19,5 +19,13 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.4.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2023/10/DD_Business_Card_Photo-150x150.png</url>
+	<title>JustDeeDeeMusic</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 </channel>
 </rss>

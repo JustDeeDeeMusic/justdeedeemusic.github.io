@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for JustDeeDeeMusic	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="http://localhost/JustDeeDeeMusic/comments/feed/?simply_static_page=3198" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description></description>
 	<lastBuildDate></lastBuildDate>
 	<sy:updatePeriod>
