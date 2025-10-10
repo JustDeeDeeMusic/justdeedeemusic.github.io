@@ -11,7 +11,7 @@
 	<title>JustDeeDeeMusic</title>
 	<atom:link href="https://www.justdeedeemusic.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.justdeedeemusic.com/</link>
-	<description></description>
+	<description>JustDeeDeeMusic</description>
 	<lastBuildDate>Thu, 09 Oct 2025 16:27:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
@@ -19,13 +19,5 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.4.7</generator>
-
-<image>
-	<url>https://www.justdeedeemusic.com/wp-content/uploads/2024/01/JDDM_FullLogo-150x150.png</url>
-	<title>JustDeeDeeMusic</title>
-	<link>https://www.justdeedeemusic.com/</link>
-	<width>32</width>
-	<height>32</height>
-</image> 
 </channel>
 </rss>
