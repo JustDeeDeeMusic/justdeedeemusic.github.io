@@ -302,33 +302,66 @@ wp.apiFetch.nonceEndpoint = "https://www.justdeedeemusic.com/wp-admin/admin-ajax
 </div>
 
 
-<!-- HTML Forms v1.5.5 - https://wordpress.org/plugins/html-forms/ -->
-<form method="post" class="hf-form hf-form-1016 " data-id="1016" data-title="Contact Dee Dee" data-slug="contact-dee-dee" data-message-success="Thank you! We will be in touch soon." data-message-invalid-email="Sorry, that email address looks invalid." data-message-required-field-missing="Please fill in the required fields." data-message-error="Oops. An error occurred.">
-<input type="hidden" id="_wpnonce" name="_wpnonce" value="fe4b6acc42"><input type="hidden" name="_wp_http_referer" value="/contact/?simply_static_page=1106958"><input type="hidden" name="_hf_form_id" value="1016"><div style="display: none;"><input type="text" name="_hf_h1016" value=""></div>
-<div class="hf-fields-wrap">
-<p>
-	<label>Your name</label>
-	<input type="text" name="NAME" placeholder="Your name" required>
-</p>
-<p>
-	<label>Your email</label>
-	<input type="email" name="EMAIL" placeholder="Your email" required>
-</p>
-<p>
-	<label>Subject</label>
-	<input type="text" name="SUBJECT" placeholder="Subject" required>
-</p>
-<p>
-	<label>Message</label>
-	<textarea name="MESSAGE" placeholder="Message" required></textarea>
-</p>
-<p>
-	<input type="submit" value="Send">
-</p>
-<noscript>Please enable JavaScript for this form to work.</noscript>
+<div id="cscf" class="cscfBlock">
+<div class="cscfMessageSent" style="display:none;">
+<h3>Message Sent</h3>
+<p>Thank you for your message, we will be in touch very shortly. </p>
 </div>
+<div class="cscfMessageNotSent" style="display:none;">
+<p>
+    Sorry, there has been a problem and your message was not sent.</p>
+</div>
+<div class="cscfForm">
+<p>Please enter your contact details and a short message below and I will try to answer your query as soon as possible.</p>
+<form role="form" id="frmCSCF" name="frmCSCF" method="post">
+			<input type="hidden" id="cscf_nonce" name="cscf_nonce" value="80b61fc737"><input type="hidden" name="_wp_http_referer" value="/contact/?simply_static_page=1107177">            <input type="hidden" name="post-id" value="968">
+<p>            <!-- name --></p>
+<div class="control-group form-group">
+                <label for="cscf_name">Name:</label>
+<div class="">
+					                    <input class="form-control input-xlarge" data-rule-required="true" data-msg-required="Please give your name." type="text" id="cscf_name" name="cscf[name]" value="" placeholder="Your Name">
+                </div>
+<p>                <span for="cscf_name" class="help-inline help-block error" style="display:none;"></span></p>
+<p>                                    
+            </p>
+</div>
+<p>            <!--email address--></p>
+<div class="control-group form-group">
+                <label for="cscf_email">Email Address:</label>
+<div class="">
+					                    <input class="form-control input-xlarge" data-rule-required="true" data-rule-email="true" data-msg-required="Please give your email address." data-msg-email="Please enter a valid email address." type="email" id="cscf_email" name="cscf[email]" value="" placeholder="Your Email Address">
+                </div>
+<p>                <span for="cscf_email" class="help-inline help-block error" style="display:none;"><br>
+                                    </span>
+            </p>
+</div>
+<p>			                <!--confirm email address --></p>
+<div class="control-group form-group">
+                    <label for="cscf_confirm-email">Confirm Email Address:</label>
+<div class="">
+						                        <input class="form-control input-xlarge" data-rule-required="true" data-rule-email="true" data-rule-equalto="#cscf_email" data-msg-required="Please enter the same email address again." data-msg-email="Please enter a valid email address." data-msg-equalto="Please enter the same email address again." type="email" id="cscf_confirm-email" name="cscf[confirm-email]" value="" placeholder="Confirm Your Email Address">
+                    </div>
+<p>                    <span for="cscf_confirm-email" class="help-inline help-block error" style="display:none;"><br>
+                                    </span>
+                </p>
+</div>
+<p>            <!-- message --></p>
+<div class="control-group form-group">
+                <label for="cscf_message">Message:</label>
+<div class="">
+					                    <textarea class="form-control input-xlarge" data-rule-required="true" data-msg-required="Please give a message." id="cscf_message" name="cscf[message]" rows="10" placeholder="Your Message"></textarea>
+                </div>
+<p>                <span for="cscf_message" class="help-inline help-block error" style="display:none;"><br>
+                                    </span>
+            </p>
+</div>
+<p>            <!-- recaptcha --><br>
+			            <input type="submit" id="cscf_SubmitButton" class="btn btn-default" value="Send Message"><br>
+        </p>
 </form>
-<!-- / HTML Forms -->
+</div>
+</div>
+
 
 
 <div style="margin-top:0;margin-bottom:0;height:11px;width:616px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -424,8 +457,6 @@ wp.apiFetch.nonceEndpoint = "https://www.justdeedeemusic.com/wp-admin/admin-ajax
 <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
 </footer>
 </div>
-<script id="html-forms-js-extra">var hf_js_vars = {"ajax_url":"https:\/\/www.justdeedeemusic.com\/wp-admin\/admin-ajax.php?action=hf_form_submit"};</script>
-<script defer src="https://www.justdeedeemusic.com/wp-content/plugins/html-forms/assets/js/public.js?ver=1.5.5" id="html-forms-js"></script>
 <script src="https://www.justdeedeemusic.com/wp-content/plugins/the-marquee-block/assets/js/common.shared.js?ver=1708287189" id="tmb-blocks-frontend-js-js"></script>
 <script id="wp-block-template-skip-link-js-after">( function() {
 		var skipLinkTarget = document.querySelector( 'main' ),
