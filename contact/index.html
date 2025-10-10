@@ -302,64 +302,26 @@ wp.apiFetch.nonceEndpoint = "https://www.justdeedeemusic.com/wp-admin/admin-ajax
 </div>
 
 
-<div id="cscf" class="cscfBlock">
-<div class="cscfMessageSent" style="display:none;">
-<h3>Message Sent</h3>
-<p>Thank you for your message, we will be in touch very shortly. </p>
-</div>
-<div class="cscfMessageNotSent" style="display:none;">
-<p>
-    Sorry, there has been a problem and your message was not sent.</p>
-</div>
-<div class="cscfForm">
-<p>Please enter your contact details and a short message below and I will try to answer your query as soon as possible.</p>
-<form role="form" id="frmCSCF" name="frmCSCF" method="post">
-			<input type="hidden" id="cscf_nonce" name="cscf_nonce" value="80b61fc737"><input type="hidden" name="_wp_http_referer" value="/contact/?simply_static_page=1107613">            <input type="hidden" name="post-id" value="968">
-<p>            <!-- name --></p>
-<div class="control-group form-group">
-                <label for="cscf_name">Name:</label>
-<div class="">
-					                    <input class="form-control input-xlarge" data-rule-required="true" data-msg-required="Please give your name." type="text" id="cscf_name" name="cscf[name]" value="" placeholder="Your Name">
-                </div>
-<p>                <span for="cscf_name" class="help-inline help-block error" style="display:none;"></span></p>
-<p>                                    
-            </p>
-</div>
-<p>            <!--email address--></p>
-<div class="control-group form-group">
-                <label for="cscf_email">Email Address:</label>
-<div class="">
-					                    <input class="form-control input-xlarge" data-rule-required="true" data-rule-email="true" data-msg-required="Please give your email address." data-msg-email="Please enter a valid email address." type="email" id="cscf_email" name="cscf[email]" value="" placeholder="Your Email Address">
-                </div>
-<p>                <span for="cscf_email" class="help-inline help-block error" style="display:none;"><br>
-                                    </span>
-            </p>
-</div>
-<p>			                <!--confirm email address --></p>
-<div class="control-group form-group">
-                    <label for="cscf_confirm-email">Confirm Email Address:</label>
-<div class="">
-						                        <input class="form-control input-xlarge" data-rule-required="true" data-rule-email="true" data-rule-equalto="#cscf_email" data-msg-required="Please enter the same email address again." data-msg-email="Please enter a valid email address." data-msg-equalto="Please enter the same email address again." type="email" id="cscf_confirm-email" name="cscf[confirm-email]" value="" placeholder="Confirm Your Email Address">
-                    </div>
-<p>                    <span for="cscf_confirm-email" class="help-inline help-block error" style="display:none;"><br>
-                                    </span>
-                </p>
-</div>
-<p>            <!-- message --></p>
-<div class="control-group form-group">
-                <label for="cscf_message">Message:</label>
-<div class="">
-					                    <textarea class="form-control input-xlarge" data-rule-required="true" data-msg-required="Please give a message." id="cscf_message" name="cscf[message]" rows="10" placeholder="Your Message"></textarea>
-                </div>
-<p>                <span for="cscf_message" class="help-inline help-block error" style="display:none;"><br>
-                                    </span>
-            </p>
-</div>
-<p>            <!-- recaptcha --><br>
-			            <input type="submit" id="cscf_SubmitButton" class="btn btn-default" value="Send Message"><br>
+
+<div style="padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;">
+    <h2>Test Email Form</h2>
+    <form method="post" action="">
+        <p>
+            <label for="recipient_email">Recipient Email:</label><br>
+            <input type="email" id="recipient_email" name="recipient_email" required style="width: 100%; padding: 8px;">
         </p>
-</form>
-</div>
+        <p>
+            <label for="email_subject">Subject:</label><br>
+            <input type="text" id="email_subject" name="email_subject" required style="width: 100%; padding: 8px;">
+        </p>
+        <p>
+            <label for="email_body">HTML Content:</label><br>
+            <textarea id="email_body" name="email_body" rows="6" required style="width: 100%; padding: 8px;"></textarea>
+        </p>
+        <p>
+            <input type="submit" name="send_test_email" value="Send Test Email" style="padding: 10px 15px; background-color: #0073aa; color: white; border: none; cursor: pointer;">
+        </p>
+    </form>
 </div>
 
 
